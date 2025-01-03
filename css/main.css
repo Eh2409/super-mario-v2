@@ -50,11 +50,21 @@ h1 {
     margin-block-end: 1em;
 }
 
+button {
+    cursor: pointer;
+}
+
 .btn>button {
     font-family: monospace;
     padding: 10px;
     font-size: 1em;
     margin-inline-end: 1em;
+}
+
+.music-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {

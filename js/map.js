@@ -78,8 +78,6 @@ function onInit() {
     window.addEventListener('resize', () => {
         resizeCanvas()
     })
-
-    playSong()
 }
 
 function resizeCanvas() {
