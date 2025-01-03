@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(97, 123, 250);
+    font-size: 1rem;
+
+    font-family: monospace;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.canvas-container {
+    position: relative;
+    display: block;
+    margin: auto;
+    inset: 0;
+    outline: solid 2px black;
+    background-color: #5c94fc;
+
+    width: 352px;
+    height: 448px;
+
+    margin-block-end: 1em;
+}
+
+.score {
+    position: absolute;
+    color: white;
+    left: 50%;
+    translate: -50%;
+    font-size: 1.4em;
+    font-family: monospace;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-block-end: 1em;
+}
+
+.btn>button {
+    font-family: monospace;
+    padding: 10px;
+    font-size: 1em;
+    margin-inline-end: 1em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    text-wrap: pretty;
+}
+
+@media (min-width: 600px) {
+    .canvas-container {
+        width: 480px;
+        height: 448px;
+    }
+}

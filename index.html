@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="/images/mario-jump-right.png">
+    <title>super-mario</title>
+</head>
+
+<body onload="onInit()">
+    <header>
+        <h1>super mario</h1>
+    </header>
+
+    <div class="canvas-container">
+        <div class="score">score: <span class="score-num">000</span></div>
+        <canvas width="480" height="448"></canvas>
+    </div>
+    <div class="btn">
+        <button onclick="onKeyPress({ key: 'ArrowLeft' })">Left</button>
+        <button onclick="onKeyPress({ key: 'ArrowUp' })">Up</button>
+        <button onclick="onKeyPress({ key: 'ArrowRight' })">Right</button>
+    </div>
+
+    <footer>
+        <small>All rights reserved to Nintendo. </br>
+            I have no money to pay them, so please don't tell them.</small>
+    </footer>
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/map.js"></script>
+    <img src="music/super.mp3" alt="">
+</body>
+
+</html>
